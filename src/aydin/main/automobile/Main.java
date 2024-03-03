@@ -32,7 +32,7 @@ public class Main {
     }
 
     private static int romanToArabian(String s) {
-        int k = switch (s) {
+        return switch (s) {
             case "I" -> 1;
             case "II" -> 2;
             case "III" -> 3;
@@ -45,7 +45,6 @@ public class Main {
             case "X" -> 10;
             default -> -1;
         };
-        return k;
     }
 
     private static int calculate(int first, int second, String operation) throws Exception {
