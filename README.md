@@ -1,2 +1,2 @@
 калькулятор
-@gglaikeNaN
+@gglikeNaN
